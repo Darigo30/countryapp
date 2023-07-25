@@ -1,0 +1,77 @@
+<section>
+  <div class="slider-area fix">
+    <div class="slider-active slick-initialized slick-slider">
+      <div class="slick-list draggable">
+        <div class="slick-track" style="opacity: 1; width: 1920px">
+          <div
+            class="single-slider slick-slide slick-current slick-active"
+            data-slick-index="0"
+            aria-hidden="false"
+            style="
+              width: 1920px;
+              position: relative;
+              left: 0px;
+              top: 0px;
+              z-index: 999;
+              opacity: 1;
+            "
+            tabindex="0"
+          >
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 d-flex justify-content-center">
+                  <div class="hero__caption text-center">
+                    <h1
+                      data-animation="fadeInUp"
+                      data-delay="0.1s"
+                      style="animation-delay: 0.1s"
+                      class=""
+                    >
+                      Descubre qué país
+                      <dd>quieres visitar</dd>
+                    </h1>
+                    <p
+                      data-animation="fadeInUp"
+                      data-delay="0.6s"
+                      style="animation-delay: 0.6s"
+                      class=""
+                    >
+                      Buscando por capital, país o región
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="car-img slider-bg1 slider-height d-flex justify-content-center align-items-end"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="car running">
+              <!-- llamar a la imagen del carro -->
+              <img src="../../assets/car.png.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col-3">
+        <!-- Sidebar -->
+        <shared-sidebar></shared-sidebar>
+      </div>
+
+      <div class="col">
+        <!-- Nuestras páginas -->
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</section>
