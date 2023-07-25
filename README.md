@@ -1,4 +1,7 @@
-# CountryApp
+# CountryApp 🌎⛺🏔️🇻🇪 🇨🇱
+![imagen](https://github.com/Darigo30/countryapp/assets/39928174/33010b0e-29a6-486d-8d69-13e2157da22b)
+
+Un poco de rutas / RouterLink y RouterLinkActive / Componentes especializados / consumo de API
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
